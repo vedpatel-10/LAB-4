@@ -1,8 +1,13 @@
 num = int(input("Enter a number: "))
-if (num % 2) == 0:
-    print("Number is prime")
+count = 0
+for i in range(1,num+1):
+    if (num%i==0):
+        count =count+1 
+
+if count ==2:
+    print("Prime number!")
 else:
-    print("Number is not prime")
+    print("Number is not prime!")
 
 int(num)
 lst = []
@@ -41,9 +46,11 @@ if num3 == num:
 else:
     print("Number is not Armstrong")    
 
-num_str = str(num)
+ num_str = str(num)
 square_str = str(num**2)
-if (num_str in square_str) :
+new_str = square_str[-1 *(len(num_str)) :]
+
+if (num_str == new_str) :
     print("Number is automorphic")
 else:
-    print("Number is not automorphic")    
+    print("Number is not automorphic")  
