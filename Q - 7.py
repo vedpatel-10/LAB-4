@@ -19,3 +19,11 @@ print(n_fact/n_r_fact)
 
 print("NCR :")
 print(n_fact / (n_r_fact * r_fact))
+
+#OUTPUT:
+# Enter n: 5
+# Enter r: 3
+# NPR :
+# 60.0
+# NCR :
+# 10.0
