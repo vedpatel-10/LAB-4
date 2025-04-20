@@ -10,3 +10,7 @@ for i in range(0,4):
     result = result + (coefficient*numerator)/denominator 
 
 print(result)    
+
+#OUTPUT:
+# Enter the degree: 45
+# 0.7068248709111208
