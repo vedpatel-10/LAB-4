@@ -54,3 +54,11 @@ if (num_str == new_str) :
     print("Number is automorphic")
 else:
     print("Number is not automorphic")  
+
+#OUTPUT:
+# Enter a number: 5
+# Prime number!
+# Number is not perfect
+# Number is palindrome
+# Number is Armstrong
+# Number is automorphic
