@@ -12,3 +12,11 @@ while res<=limit:
     j = res 
     res = i + j
 
+#OUTPUT:
+# Enter a number for maximum limit: 6
+# 0
+# 1
+# 1
+# 2
+# 3
+# 5
