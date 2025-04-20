@@ -18,3 +18,8 @@ for j in s:
 
 print("Total alphabets in string are : "+str(count_alpha))        
 print("Total digits in string are : "+ str(count_num))
+
+#OUTPUT:
+# Enter a string: I ate 4 mangoes.
+# Total alphabets in string are : 11
+# Total digits in string are : 1
